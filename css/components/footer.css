@@ -1,0 +1,59 @@
+footer {
+margin-top: 7%;
+text-align: center;
+
+}
+footer .footer__titulo {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 3%;
+
+}
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__container-retirada {
+    width: 800px;
+    padding: 20px;
+}
+.footer__retirada-titulo {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.footer__retirada-paragrafo {
+    margin: 20px;
+    margin-bottom: 50px;
+
+}
+
+.footer__container-pedido {
+    width: 800px;
+
+}
+.footer__horario-de-funcionamento
+{
+    text-align: left;
+}
+
+.footer__img-whats {
+    margin: 20px;
+    width: 90%;
+    height: 200px;
+    
+}
+.footer__whatsapp
+{
+    color: green;
+}
+
+.footer__botao-contato {
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 20px;
+}

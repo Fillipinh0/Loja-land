@@ -1,0 +1,118 @@
+main {
+
+}
+/*Inicio*/
+main .apresentacao {
+
+    display: block;
+    margin-top: 6rem;
+    text-align: center;
+}
+main .apresentacao .tipos__produtos-lista {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+main .apresentacao .tipos__produtos-lista li {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .apresentacao .tipos__produtos-lista li>a {
+    padding: 15px 35px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--white);
+    
+}
+main .apresentacao .tipos__produtos-lista li>a:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+    
+}
+main .apresentacao img{
+    width: 1000px;
+}
+
+/*Quem somo/ aba Sobre*/
+
+main .container__quem__somos {
+    margin-top: 3rem;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: var();
+}
+main .container__quem__somos .quemSomos__informacoes {
+    width: 500px;
+}
+main .container__quem__somos .quemSomos__titulo {
+    margin-top: 3rem;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/*Aba de produtos*/
+
+.container-pai__produtos {
+    margin-top: 200px;
+}
+.produtos__titulo {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container-pai__produtos .container__produtos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    padding: 50px;
+}
+.container-pai__produtos .container__produtos-reverso {
+    flex-direction: row-reverse;
+    background-color: var(--fundo-secundario);
+}
+
+.container-pai__produtos .container__produtos .imagem__produtos {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container-pai__produtos .container__produtos .conteudo__produtos {
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.container-pai__produtos .container__produtos .conteudo__produtos .produtos__sub-titulo {
+    
+    font-size: 2rem;
+    margin: 20px;
+    margin-bottom: 10%;
+}
+.container-pai__produtos .container__produtos .conteudo__produtos.produtos__paragrafo {
+    margin: 500px;
+}
+.container-pai__produtos .container__produtos .conteudo__produtos .produtos__botao-contato {
+    
+    font-size: 2rem;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+.container-pai__produtos .container__produtos .conteudo__produtos .produtos__botao-contato:hover {
+    
+    opacity: 0.7;
+    transition: 0.2s;
+    
+}

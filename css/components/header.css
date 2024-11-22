@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    scroll-margin-top: 20rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--white);
+    padding: 15px;
+}
+.nome__loja {
+    margin-left: 3%;
+}
+nav > ul.container__ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-right: 3rem;
+}
+nav > ul.container__ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+    list-style: none;
+}
+nav > ul.container__ul a:hover {
+    color: var(--hover-color);
+}
